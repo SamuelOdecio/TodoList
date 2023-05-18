@@ -39,3 +39,5 @@ export async function exclude(id: number) {
   const tasks = await api.delete(`/tasks/${id}`)
   return tasks.data
 }
+
+

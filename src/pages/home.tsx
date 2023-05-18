@@ -54,6 +54,7 @@ export function Home() {
                         <Grid spacing={theme.spacing(2)}>
 
                             <Grid item xl={12} sx={{ display: "flex", alingItens: "center", gap: theme.spacing(1) }}>
+                                
                                 <Box display="flex" alignItems="center" gap={theme.spacing(1)} >
                                     <Typography variant="caption" sx={{ gap: theme.spacing(1) }}> Tarefas Criadas </Typography>
                                     <Chip label={0} />
@@ -63,7 +64,7 @@ export function Home() {
                                     <Typography variant="caption" sx={{ gap: theme.spacing(1) }}> Concluidas </Typography>
                                     <Chip label={0} />
                                 </Box>
-
+                                
                             </Grid>
 
                         </Grid>
