@@ -1,5 +1,6 @@
 import { AppBar, Box, Chip, Container, Button, CssBaseline, Grid, TextField, Toolbar, Typography, useTheme, colors } from '@mui/material'
 import { useState } from 'react';
+import { CardTarefa } from '../CardTarefa/index';
 
 export function Home() {
     const [novaTarefa, setNovaTarefa] = useState('');
@@ -68,6 +69,9 @@ export function Home() {
                             </Grid>
 
                         </Grid>
+                        
+                        <CardTarefa></CardTarefa>
+                        
 
                     </Grid>
 

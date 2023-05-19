@@ -19,7 +19,7 @@ export function CardTarefa({ texto }: CardTarefaProps) {
             {texto}
           </Typography>
 
-          <Button sx={{ textAlign: 'center' }}><DeleteIcon /></Button>
+          <Button sx={{ textAlign: 'center' }}></Button>
         </CardContent>
       </Card>
     </>
